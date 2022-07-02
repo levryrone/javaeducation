@@ -3,6 +3,33 @@ Once upon a time...
 There was a dark green forest and a small house at the edge of it.
 
 
-as;fjasd;fkljasdfkljasd;klfasjhd;fklasdhf;klasdjf ;kl
-s;flasdfsklda;fasdjh;fklasdh;gklasdhg;klashgdfjklghasdfjklg
-hsdfas;lkfhasd;klfh
+
+
+
+git clone https://github.com/levryrone/javaeducation.git - склонувати репо локально собі
+
+git branch                                        - подивитись список гілок і поточну
+
+git branch -a                                     - подивитись всі гілки, в тому числі і на віддаленому репо
+
+git checkout -b my-new-branch-name                - створити нову і перейти на неї
+
+git add . - додати всі зміни в коміт
+
+git commit -m "My commit message"                  - створити коміт
+
+git push                                           - запушити
+
+git push --set-upstream origin remote-branch-name  - запушити в конкретну гілку
+
+
+git status                                         - статус змін (де я, які зміни закомічені, які ні)
+
+git log                                            - історія комітів
+
+
+
+
+git stash                                          - сховати у схованку
+
+git stash apply                                    - дістати із схованки
