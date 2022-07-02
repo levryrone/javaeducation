@@ -22,6 +22,15 @@ git push                                           - запушити
 
 git push --set-upstream origin remote-branch-name  - запушити в конкретну гілку
 
+Стягнутися з віддаленого репо:
+
+git fetch                                          - витягнути посилання на віддалені гілки
+
+git pull                                           - синхронізуватись з відаленою гілкою, стягнути її
+
+git merge branch-to-merge-name                     - залити гілку branch-to-merge-name в мою поточну
+
+Подивитись статус: 
 
 git status                                         - статус змін (де я, які зміни закомічені, які ні)
 
